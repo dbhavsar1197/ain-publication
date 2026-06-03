@@ -1,0 +1,94 @@
+baseURL = 'https://ain-publication.netlify.app/'
+languageCode = 'en-us'
+title = 'AIN Publication'
+theme = 'PaperMod'
+
+[params]
+  env = "production"
+  description = "Weekly insights on finance and technology"
+  author = "AIN Publication"
+  defaultTheme = "auto"
+  ShowShareButtons = false
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  comments = false
+
+  [params.homeInfoParams]
+    Title = "Welcome to AIN Publication"
+    Content = "Weekly insights on finance and technology for professionals who need to stay informed without noise."
+
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/ainpublication"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/company/ainpublication"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/ain-publication"
+
+[params.cover]
+  hidden = false
+
+[params.label]
+  text = "AIN Publication"
+  icon = "📰"
+
+[params.assets]
+  disableHLJS = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    lineNos = false
+    style = "monokai"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[menu]
+  [[menu.main]]
+    identifier = "finance"
+    name = "Finance"
+    url = "/categories/finance/"
+    weight = 10
+  [[menu.main]]
+    identifier = "technology"
+    name = "Technology"
+    url = "/categories/technology/"
+    weight = 20
+  [[menu.main]]
+    identifier = "archive"
+    name = "Archive"
+    url = "/archive/"
+    weight = 30
+  [[menu.main]]
+    identifier = "newsletter"
+    name = "Newsletter"
+    url = "/newsletter/"
+    weight = 40
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableSVG = false
+  keepComments = false
