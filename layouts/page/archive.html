@@ -1,0 +1,38 @@
+{{ define "main" }}
+<article class="post-single">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="post-title entry-hint-parent">{{ .Title }}</h1>
+    <div class="post-meta">{{ partial "post_meta.html" . }}</div>
+  </header>
+  {{ partial "toc.html" . }}
+  <div class="post-content md-content">
+    <h2 id="article-archive">Article Archive</h2>
+    <p>Browse all our articles by date and category.</p>
+    
+    <h3 id="finance-articles">Finance Articles</h3>
+    {{ range where .Site.RegularPages "Section" "finance" }}
+    <ul>
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> - {{ .Date.Format "January 2, 2006" }}</li>
+    </ul>
+    {{ end }}
+    
+    <h3 id="technology-articles">Technology Articles</h3>
+    {{ range where .Site.RegularPages "Section" "technology" }}
+    <ul>
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> - {{ .Date.Format "January 2, 2006" }}</li>
+    </ul>
+    {{ end }}
+    
+    <h3 id="all-articles">All Articles</h3>
+    {{ range .Site.RegularPages }}
+    <ul>
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> - {{ .Date.Format "January 2, 2006" }}</li>
+    </ul>
+    {{ end }}
+  </div>
+  <footer class="post-footer">
+    {{ partial "post_tags.html" . }}
+  </footer>
+</article>
+{{ end }}
