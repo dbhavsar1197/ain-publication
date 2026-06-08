@@ -22,20 +22,25 @@ The objective is to investigate:
 
 AIN Publication
 
-                    CEO (Product)
-                           │
-                 ┌─────────┴─────────┐
-                 │                   │
-               CTO                  CCO
-                 │                   │
-     ┌───────────┼───────────┐       │
-     │           │           │       │
-    BSA        Developer     QA   Researcher
-                                    Writer
-                                 Proofreader
-                                  Publisher
+     CEO (Product)
+    │
+    └── CTO
+         │
+         ├── Engineering Team
+         │   ├── BSA
+         │   ├── Developer
+         │   ├── QA
+         │   └── Production Support
+         │
+         └── Content Production Team
+             ├── Researcher
+             ├── Writer
+             ├── Proofreader
+             └── Publisher
 
 
+
+             
                     CEO (Services)
                            │
               ┌────────────┴────────────┐
