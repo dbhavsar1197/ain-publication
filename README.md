@@ -1,16 +1,15 @@
-# AIN Publication
-
+## AIN Publication
 AIN Publication
 
-AIN Publication is an experiment in autonomous content operations powered by AI agents.
+AIN Publication is an experiment in AI-powered content operations and organizational design.
 
-The project explores how specialized AI agents can collaborate within realistic business structures to research, create, publish, and grow a finance and technology publication.
+The project explores how specialized AI agents can collaborate within business-oriented teams to research, create, publish, and grow a finance and technology publication.
 
 Project Vision
 
 Most AI workflows focus on a single prompt and a single output.
 
-AIN Publication explores a different approach: autonomous organizations composed of specialized agents with defined responsibilities, leadership structures, and collaboration models.
+AIN Publication explores a different approach: specialized AI agents organized into business-oriented teams with defined responsibilities, leadership structures, and collaboration models.
 
 The objective is to investigate:
 
@@ -21,25 +20,50 @@ The objective is to investigate:
 * Long-running workflows
 * AI-assisted operational processes
 
-Organizational Structure
+AIN Publication
+
+                    CEO (Product)
+                           │
+                 ┌─────────┴─────────┐
+                 │                   │
+               CTO                  CCO
+                 │                   │
+     ┌───────────┼───────────┐       │
+     │           │           │       │
+    BSA        Developer     QA   Researcher
+                                    Writer
+                                 Proofreader
+                                  Publisher
+
+
+                    CEO (Services)
+                           │
+              ┌────────────┴────────────┐
+              │                         │
+             CMO                       CFO
+              │                         │
+      Marketing & Sales       Pricing & Finance
+
+
+            CEO (Product) ⇄ CEO (Services)
 
 Product Company
 
 Responsible for building and maintaining the publication platform and content production workflows.
 
-Leadership:
+Leadership
 
 * CEO
 * CTO
 
-Engineering Team:
+Engineering Team
 
 * Business Systems Analyst (BSA)
 * Developer
 * QA
 * Production Support
 
-Content Production Team:
+Content Production Team
 
 * Researcher
 * Writer
@@ -50,19 +74,19 @@ Services Company
 
 Responsible for audience growth, marketing, and financial operations.
 
-Leadership:
+Leadership
 
 * CEO
 * CMO
 * CFO
 
-Marketing:
+Marketing
 
 * Marketing
 * Lead Generation
 * Sales
 
-Finance:
+Finance
 
 * Pricing
 * Contracts
@@ -73,17 +97,21 @@ Collaboration Model
 
 The Product Company and Services Company operate independently while collaborating through CEO-to-CEO coordination.
 
-The Product Company focuses on content and platform development.
+The Product Company focuses on platform development and content production.
 
-The Services Company focuses on growth, monetization, and business operations.
+The Services Company focuses on growth, monetization, audience acquisition, and business operations.
 
 Current Status
 
-The publication platform is operational and deployed through GitHub Pages.
+AIN Publication is currently in the proof-of-concept stage.
 
-Due to storage and infrastructure constraints on personal hardware, long-running autonomous workloads are currently being evaluated for deployment on alternative hosting platforms.
+The organizational model, agent structure, publication platform, and workflow concepts have been defined and partially implemented.
 
-The project remains an active experiment focused on practical applications of multi-agent systems and autonomous operational models.
+Development is currently focused on validating multi-agent collaboration patterns, content production workflows, and infrastructure requirements for long-running autonomous workloads.
+
+Due to infrastructure and storage limitations on personal hardware, deployment options for continuous operation are still being evaluated.
+
+The project remains an active experiment in applying multi-agent systems to real-world content production and business processes.
 ## Features
 
 - **Static Site**: Built with Hugo for fast loading and easy maintenance
@@ -191,4 +219,4 @@ The newsletter uses Buttondown for email delivery. To configure:
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) for details.
+MIT License - see [LICENSE](LICENSE) for details 
