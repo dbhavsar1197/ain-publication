@@ -1,7 +1,89 @@
 # AIN Publication
 
-Weekly insights on finance and technology for professionals who need to stay informed without noise.
+AIN Publication
 
+AIN Publication is an experiment in autonomous content operations powered by AI agents.
+
+The project explores how specialized AI agents can collaborate within realistic business structures to research, create, publish, and grow a finance and technology publication.
+
+Project Vision
+
+Most AI workflows focus on a single prompt and a single output.
+
+AIN Publication explores a different approach: autonomous organizations composed of specialized agents with defined responsibilities, leadership structures, and collaboration models.
+
+The objective is to investigate:
+
+* Multi-agent delegation
+* Autonomous content production
+* Organizational design
+* Product and service business models
+* Long-running workflows
+* AI-assisted operational processes
+
+Organizational Structure
+
+Product Company
+
+Responsible for building and maintaining the publication platform and content production workflows.
+
+Leadership:
+
+* CEO
+* CTO
+
+Engineering Team:
+
+* Business Systems Analyst (BSA)
+* Developer
+* QA
+* Production Support
+
+Content Production Team:
+
+* Researcher
+* Writer
+* Proofreader
+* Publisher
+
+Services Company
+
+Responsible for audience growth, marketing, and financial operations.
+
+Leadership:
+
+* CEO
+* CMO
+* CFO
+
+Marketing:
+
+* Marketing
+* Lead Generation
+* Sales
+
+Finance:
+
+* Pricing
+* Contracts
+* Billing
+* Finance
+
+Collaboration Model
+
+The Product Company and Services Company operate independently while collaborating through CEO-to-CEO coordination.
+
+The Product Company focuses on content and platform development.
+
+The Services Company focuses on growth, monetization, and business operations.
+
+Current Status
+
+The publication platform is operational and deployed through GitHub Pages.
+
+Due to storage and infrastructure constraints on personal hardware, long-running autonomous workloads are currently being evaluated for deployment on alternative hosting platforms.
+
+The project remains an active experiment focused on practical applications of multi-agent systems and autonomous operational models.
 ## Features
 
 - **Static Site**: Built with Hugo for fast loading and easy maintenance
